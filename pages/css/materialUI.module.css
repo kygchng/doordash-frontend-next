@@ -1,0 +1,59 @@
+.boxHomeDisplay {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+
+.boxHomeDisplayItem:hover {
+    background: red;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+.fontMarginZero {
+    margin: 0;
+}
+
+.aboutDescription {
+    margin: 0;
+    font-size: 14px;
+}
+
+.categoriesLabel {
+    margin: 0;
+    font-size: 14px;
+}
+
+.boxHomeWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.boxHomeList {
+    border: 5px solid black;
+    padding: 16px;
+    margin: 16px;
+    width: 250px;
+    height: 250px;
+    overflow-y: scroll;
+}
+
+.categories {
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.categoryText {
+    margin: 8px;
+    padding: 8px;
+    width: auto;
+    border-radius: 3px;
+    background-color: bisque;
+    font-size: 14px;
+}
+
+.boxHomeList:hover {
+    cursor: pointer;
+}
